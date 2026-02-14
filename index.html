@@ -16,7 +16,12 @@
 
   <main class="container">
     <aside class="sidebar">
+      <div class="stats-container">
+        <span class="total-label">訪れた店舗数:</span>
+        <span id="total-count" class="total-number">0</span>軒
+      </div>
       <ul id="shop-list">
+        <li onclick="showAllPins()" class="all-pins-btn">すべて表示</li>
         <li onclick="showMap('nakamura')">寿し心 なかむら</li>
         <li onclick="showMap('futago')">ふたごザン</li>
         <li onclick="showMap('sakata')">そば切りさか田</li>
